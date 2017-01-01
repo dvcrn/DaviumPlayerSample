@@ -14,6 +14,22 @@
 		7B8451371E18DA510097FB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8451351E18DA510097FB0D /* LaunchScreen.storyboard */; };
 		7B8451421E18DA510097FB0D /* daviumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451411E18DA510097FB0D /* daviumTests.swift */; };
 		7B84514D1E18DA510097FB0D /* daviumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84514C1E18DA510097FB0D /* daviumUITests.swift */; };
+		7B84515C1E18DAA00097FB0D /* DaviumPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84515B1E18DAA00097FB0D /* DaviumPlayerManager.swift */; };
+		7B84516E1E18E8770097FB0D /* Aloe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84515F1E18E8770097FB0D /* Aloe.swift */; };
+		7B84516F1E18E8770097FB0D /* AloeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451601E18E8770097FB0D /* AloeColor.swift */; };
+		7B8451701E18E8770097FB0D /* AloeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451611E18E8770097FB0D /* AloeDate.swift */; };
+		7B8451711E18E8770097FB0D /* AloeDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451621E18E8770097FB0D /* AloeDevice.swift */; };
+		7B8451721E18E8770097FB0D /* AloeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451631E18E8770097FB0D /* AloeEvent.swift */; };
+		7B8451731E18E8770097FB0D /* AloeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451641E18E8770097FB0D /* AloeFile.swift */; };
+		7B8451741E18E8770097FB0D /* AloeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451651E18E8770097FB0D /* AloeImage.swift */; };
+		7B8451751E18E8770097FB0D /* AloeThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451661E18E8770097FB0D /* AloeThread.swift */; };
+		7B8451761E18E8770097FB0D /* AloeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451671E18E8770097FB0D /* AloeUI.swift */; };
+		7B8451771E18E8770097FB0D /* AloeChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8451691E18E8770097FB0D /* AloeChain.swift */; };
+		7B8451781E18E8770097FB0D /* AloeEase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84516A1E18E8770097FB0D /* AloeEase.swift */; };
+		7B8451791E18E8770097FB0D /* AloeEaseBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84516B1E18E8770097FB0D /* AloeEaseBezier.swift */; };
+		7B84517A1E18E8770097FB0D /* AloeTween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84516C1E18E8770097FB0D /* AloeTween.swift */; };
+		7B84517B1E18E8770097FB0D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84516D1E18E8770097FB0D /* ReplaceMe.swift */; };
+		9F12735D035B2F671A226618 /* Pods_davium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F49FE10D1D8B165FECBF78E /* Pods_davium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12FD6496008207C6A2705362 /* Pods-davium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-davium.release.xcconfig"; path = "Pods/Target Support Files/Pods-davium/Pods-davium.release.xcconfig"; sourceTree = "<group>"; };
+		5F49FE10D1D8B165FECBF78E /* Pods_davium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_davium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8451291E18DA510097FB0D /* davium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = davium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B84512C1E18DA510097FB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B84512E1E18DA510097FB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 		7B8451481E18DA510097FB0D /* daviumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daviumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B84514C1E18DA510097FB0D /* daviumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daviumUITests.swift; sourceTree = "<group>"; };
 		7B84514E1E18DA510097FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B84515B1E18DAA00097FB0D /* DaviumPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaviumPlayerManager.swift; sourceTree = "<group>"; };
+		7B84515F1E18E8770097FB0D /* Aloe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aloe.swift; sourceTree = "<group>"; };
+		7B8451601E18E8770097FB0D /* AloeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeColor.swift; sourceTree = "<group>"; };
+		7B8451611E18E8770097FB0D /* AloeDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeDate.swift; sourceTree = "<group>"; };
+		7B8451621E18E8770097FB0D /* AloeDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeDevice.swift; sourceTree = "<group>"; };
+		7B8451631E18E8770097FB0D /* AloeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeEvent.swift; sourceTree = "<group>"; };
+		7B8451641E18E8770097FB0D /* AloeFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeFile.swift; sourceTree = "<group>"; };
+		7B8451651E18E8770097FB0D /* AloeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeImage.swift; sourceTree = "<group>"; };
+		7B8451661E18E8770097FB0D /* AloeThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeThread.swift; sourceTree = "<group>"; };
+		7B8451671E18E8770097FB0D /* AloeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeUI.swift; sourceTree = "<group>"; };
+		7B8451691E18E8770097FB0D /* AloeChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeChain.swift; sourceTree = "<group>"; };
+		7B84516A1E18E8770097FB0D /* AloeEase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeEase.swift; sourceTree = "<group>"; };
+		7B84516B1E18E8770097FB0D /* AloeEaseBezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeEaseBezier.swift; sourceTree = "<group>"; };
+		7B84516C1E18E8770097FB0D /* AloeTween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloeTween.swift; sourceTree = "<group>"; };
+		7B84516D1E18E8770097FB0D /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		8E85383FF178CCC096ECF8FD /* Pods-davium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-davium.debug.xcconfig"; path = "Pods/Target Support Files/Pods-davium/Pods-davium.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F12735D035B2F671A226618 /* Pods_davium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				7B8451401E18DA510097FB0D /* daviumTests */,
 				7B84514B1E18DA510097FB0D /* daviumUITests */,
 				7B84512A1E18DA510097FB0D /* Products */,
+				D01E7447E3291755CD4D5833 /* Pods */,
+				BB28B6474D7901242F16E073 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +134,8 @@
 		7B84512B1E18DA510097FB0D /* davium */ = {
 			isa = PBXGroup;
 			children = (
+				7B84515D1E18E8770097FB0D /* libs */,
+				7B84515A1E18DA8F0097FB0D /* player */,
 				7B84512C1E18DA510097FB0D /* AppDelegate.swift */,
 				7B84512E1E18DA510097FB0D /* ViewController.swift */,
 				7B8451301E18DA510097FB0D /* Main.storyboard */,
@@ -125,6 +164,68 @@
 			path = daviumUITests;
 			sourceTree = "<group>";
 		};
+		7B84515A1E18DA8F0097FB0D /* player */ = {
+			isa = PBXGroup;
+			children = (
+				7B84515B1E18DAA00097FB0D /* DaviumPlayerManager.swift */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		7B84515D1E18E8770097FB0D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				7B84515E1E18E8770097FB0D /* aloe */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		7B84515E1E18E8770097FB0D /* aloe */ = {
+			isa = PBXGroup;
+			children = (
+				7B84515F1E18E8770097FB0D /* Aloe.swift */,
+				7B8451601E18E8770097FB0D /* AloeColor.swift */,
+				7B8451611E18E8770097FB0D /* AloeDate.swift */,
+				7B8451621E18E8770097FB0D /* AloeDevice.swift */,
+				7B8451631E18E8770097FB0D /* AloeEvent.swift */,
+				7B8451641E18E8770097FB0D /* AloeFile.swift */,
+				7B8451651E18E8770097FB0D /* AloeImage.swift */,
+				7B8451661E18E8770097FB0D /* AloeThread.swift */,
+				7B8451671E18E8770097FB0D /* AloeUI.swift */,
+				7B8451681E18E8770097FB0D /* animation */,
+				7B84516D1E18E8770097FB0D /* ReplaceMe.swift */,
+			);
+			path = aloe;
+			sourceTree = "<group>";
+		};
+		7B8451681E18E8770097FB0D /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				7B8451691E18E8770097FB0D /* AloeChain.swift */,
+				7B84516A1E18E8770097FB0D /* AloeEase.swift */,
+				7B84516B1E18E8770097FB0D /* AloeEaseBezier.swift */,
+				7B84516C1E18E8770097FB0D /* AloeTween.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		BB28B6474D7901242F16E073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F49FE10D1D8B165FECBF78E /* Pods_davium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D01E7447E3291755CD4D5833 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E85383FF178CCC096ECF8FD /* Pods-davium.debug.xcconfig */,
+				12FD6496008207C6A2705362 /* Pods-davium.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B8451511E18DA510097FB0D /* Build configuration list for PBXNativeTarget "davium" */;
 			buildPhases = (
+				CE064F5A4D95873538F713EA /* [CP] Check Pods Manifest.lock */,
 				7B8451251E18DA510097FB0D /* Sources */,
 				7B8451261E18DA510097FB0D /* Frameworks */,
 				7B8451271E18DA510097FB0D /* Resources */,
+				9D0DF2119BECEA7D758B79E2 /* [CP] Embed Pods Frameworks */,
+				D4129BE4E9A4463B3B523E9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +361,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D0DF2119BECEA7D758B79E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-davium/Pods-davium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE064F5A4D95873538F713EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4129BE4E9A4463B3B523E9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-davium/Pods-davium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B8451251E18DA510097FB0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B84516F1E18E8770097FB0D /* AloeColor.swift in Sources */,
 				7B84512F1E18DA510097FB0D /* ViewController.swift in Sources */,
+				7B8451761E18E8770097FB0D /* AloeUI.swift in Sources */,
+				7B84515C1E18DAA00097FB0D /* DaviumPlayerManager.swift in Sources */,
+				7B84516E1E18E8770097FB0D /* Aloe.swift in Sources */,
+				7B8451751E18E8770097FB0D /* AloeThread.swift in Sources */,
+				7B84517B1E18E8770097FB0D /* ReplaceMe.swift in Sources */,
+				7B8451771E18E8770097FB0D /* AloeChain.swift in Sources */,
+				7B8451731E18E8770097FB0D /* AloeFile.swift in Sources */,
+				7B8451701E18E8770097FB0D /* AloeDate.swift in Sources */,
+				7B8451741E18E8770097FB0D /* AloeImage.swift in Sources */,
+				7B8451721E18E8770097FB0D /* AloeEvent.swift in Sources */,
 				7B84512D1E18DA510097FB0D /* AppDelegate.swift in Sources */,
+				7B8451781E18E8770097FB0D /* AloeEase.swift in Sources */,
+				7B8451711E18E8770097FB0D /* AloeDevice.swift in Sources */,
+				7B84517A1E18E8770097FB0D /* AloeTween.swift in Sources */,
+				7B8451791E18E8770097FB0D /* AloeEaseBezier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +578,7 @@
 		};
 		7B8451521E18DA510097FB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E85383FF178CCC096ECF8FD /* Pods-davium.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RHQWK52K6D;
@@ -424,6 +592,7 @@
 		};
 		7B8451531E18DA510097FB0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FD6496008207C6A2705362 /* Pods-davium.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RHQWK52K6D;
@@ -512,6 +681,7 @@
 				7B8451531E18DA510097FB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8451541E18DA510097FB0D /* Build configuration list for PBXNativeTarget "daviumTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +690,7 @@
 				7B8451561E18DA510097FB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8451571E18DA510097FB0D /* Build configuration list for PBXNativeTarget "daviumUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +699,7 @@
 				7B8451591E18DA510097FB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
